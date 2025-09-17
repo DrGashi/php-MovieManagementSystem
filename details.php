@@ -96,11 +96,11 @@
                     <p><?php echo $movie_data['movie_desc']; ?></p>
                     <form action="book.php" method="post">
                     <div class="form-floating">
-                      <input type="number" class="form-control" id="floatingInput" placeholder="Number of tickets" name="nr_tickets" >
+                      <input type="number" class="form-control" id="floatingInput" placeholder="Number of tickets" name="nr_tickets" required>
                       <label for="floatingInput">Number of tickets</label>
                     </div>
                     <div class="form-floating">
-                      <input type="date" class="form-control" id="floatingInput" placeholder="Date" name="date" >
+                      <input type="date" class="form-control" id="floatingInput" placeholder="Date" name="date" required>
                       <label for="floatingInput">Date</label>
                     </div>
                     <div class="form-floating">

@@ -11,6 +11,6 @@
 	$prep->bindParam(':id',$id);
 	$prep->execute();
 
-	header("Location: list_movies.php");
+	header("Location: bookings.php");
  ?>
  
